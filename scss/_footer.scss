@@ -1,0 +1,28 @@
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "TT Lakes";
+  font-size: 14px;
+  color: #7e7e82;
+  border-top: 1px solid #d9fff5;
+  background-color: #f8f8f8;
+
+  &__doc {
+    margin: 0;
+    color: #7e7e82;
+    text-decoration: none;
+
+    &:hover {
+      color: #ff3e79;
+    }
+  }
+
+  &__dev {
+    margin-left: 24px;
+  }
+
+  &__inf {
+    margin-right: 24px;
+  }
+}

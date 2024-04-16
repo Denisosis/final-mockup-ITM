@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+}
+
+.burger-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: left ease 0.5s;
+
+  @media screen and (max-width: 1120px) {
+    left: -320px;
+  }
+
+  &-active {
+    box-shadow: 16px 0px 52px 0px #0e185033;
+    left: 0;
+  }
+}
+
+.modal-call-container {
+  position: fixed;
+  top: 0;
+  right: -530px;
+  transition: right ease 0.5s;
+
+  &-active {
+    right: 0;
+  }
+}
+
+.modal-feedback-container {
+  position: fixed;
+  top: 0;
+  right: -530px;
+  transition: right ease 0.5s;
+
+  &-active {
+    right: 0;
+  }
+}
+
+.main-text {
+  @media screen and (min-width: 1120px) {
+    padding-left: 320px;
+  }
+}
+
+.repair-tech {
+  @media screen and (min-width: 1120px) {
+    padding-left: 320px;
+  }
+}
+
+.repair-view {
+  @media screen and (min-width: 1120px) {
+    padding-left: 320px;
+  }
+}
+
+.table-price {
+  @media screen and (min-width: 1120px) {
+    padding-left: 320px;
+  }
+}
+
+.main-footer {
+  @media screen and (min-width: 1120px) {
+    padding-left: 320px;
+  }
+}
+
+.fon-burger-active {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  transition: 0.5s;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.fon-call-active {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  transition: 0.5s;
+  opacity: 0.9;
+  z-index: 3;
+}
+
+.fon-feedback-active {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  transition: 0.5s;
+  opacity: 0.9;
+  z-index: 3;
+}

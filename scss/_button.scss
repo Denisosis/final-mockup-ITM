@@ -1,0 +1,80 @@
+.main__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ff3e79;
+  opacity: 1;
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.main__menu__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+}
+
+.hide {
+  background: none;
+  border: none;
+  font-family: "TT Lakes";
+  width: 134px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #1b1c21;
+  font-weight: 500;
+  margin: 24px 0 0 24px;
+  padding: 0;
+}
+
+.cell-send_btn {
+  font-family: "TT Lakes";
+  width: 119px;
+  height: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  background-color: #ff3e79;
+  border-radius: 75px;
+  opacity: 1;
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.modal-link {
+  color: #ff3e79;
+}
+
+.form__elem {
+  font-family: "TT Lakes";
+  font-size: 16px;
+  width: 254px;
+  height: 46px;
+  margin: 0 16px 16px 16px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 0 16px 0 16px;
+
+  &::placeholder {
+    font-family: "TT Lakes";
+    font-size: 16px;
+    color: #b5b6bc;
+  }
+}
